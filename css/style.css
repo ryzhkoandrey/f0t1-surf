@@ -86,6 +86,8 @@ body {
 .title-img {
    margin-bottom: 12px;
    width: 100%;
+   position: relative;
+   z-index: -1;
 }
 
 .title-text {
@@ -100,6 +102,13 @@ body {
 .header__content {
    display: flex;
    justify-content: space-between;
+}
+
+.header__info {
+   display: flex;
+   flex-direction: column;
+   gap: 118px;
+   margin-top: auto;
 }
 
 .header__info-list {
@@ -118,9 +127,17 @@ body {
    font-weight: 700;
 }
 
+.header__social {
+   margin-top: auto;
+}
+
 .header__social-list {
    display: flex;
    gap: 20px;
+}
+
+.header__news {
+   margin-top: -50px;
 }
 
 .header__news-box {
