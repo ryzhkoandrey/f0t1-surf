@@ -311,6 +311,7 @@ body {
    font-size: 64px;
    font-weight: 800;
    text-transform: uppercase;
+   flex-basis: 50%;
 }
 
 .activities__text {
@@ -319,8 +320,20 @@ body {
    flex-direction: column;
    gap: 10px;
    justify-content: space-between;
+   flex-basis: 50%;
 }
 
-.activities__list {}
+.activities__text .buttons-book {
+   align-self: start;
+}
 
-.activities__item {}
+.activities__list {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+
+.activities__item {
+   border: 1px solid #2b2a29;
+   border-radius: 50%;
+   aspect-ratio: 1 / 1;
+}
