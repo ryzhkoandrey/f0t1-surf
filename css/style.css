@@ -336,4 +336,19 @@ body {
    border: 1px solid #2b2a29;
    border-radius: 50%;
    aspect-ratio: 1 / 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.activities__item h5 {
+   font-size: 26px;
+   font-weight: 700;
+   max-width: 115px;
+   text-align: center;
+}
+
+.site-images {
+   width: 100%;
+   margin-bottom: 150px;
 }
