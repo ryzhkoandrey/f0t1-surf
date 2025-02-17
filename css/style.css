@@ -136,7 +136,7 @@ body {
    margin-top: auto;
 }
 
-.header__social-list {
+.social-list {
    display: flex;
    gap: 20px;
 }
@@ -413,3 +413,30 @@ body {
    display: block;
    text-align: right;
 }
+
+.footer {
+   color: #fff;
+   background-color: #2b2a29;
+}
+
+.footer__inner {}
+
+.footer__top {}
+
+.footer__title {}
+
+.footer__logo {}
+
+.footer__info {}
+
+.footer__info-list {}
+
+.footer__info-item {}
+
+.footer__bottom {}
+
+.footer__nav {}
+
+.footer__nav-item {}
+
+.footer__nav-link {}
