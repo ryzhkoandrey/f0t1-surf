@@ -352,3 +352,25 @@ body {
    width: 100%;
    margin-bottom: 150px;
 }
+
+.reviews {}
+
+.reviews__top {}
+
+.reviews__subtitle {}
+
+.reviews__title {}
+
+.reviews__items {}
+
+.reviews__item {}
+
+.reviews__img {}
+
+.blockquote {}
+
+.blockquote__text {}
+
+.blockquote__cite {}
+
+.blockquote__time {}
