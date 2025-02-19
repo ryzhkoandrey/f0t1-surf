@@ -642,7 +642,19 @@ body {
       font-size: 44px;
    }
 
+   .activities__title {
+      font-size: 36px;
+   }
+
    .about__subtitle {
       margin-bottom: 10px;
+   }
+
+   .activities__list {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .site-images {
+      display: none;
    }
 }
