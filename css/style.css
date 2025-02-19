@@ -229,6 +229,7 @@ body {
 .about__inner {
    display: flex;
    justify-content: space-between;
+   gap: 20px;
 }
 
 .about__content {
@@ -502,6 +503,32 @@ body {
    background-color: #fff;
 }
 
+@media (max-width: 1500px) {
+
+   .about__img {
+      flex-basis: 50%;
+   }
+
+   .about__img img {
+      width: 100%;
+   }
+}
+
+@media (max-width: 1280px) {
+
+   .about__title {
+      margin-bottom: 20px;
+   }
+
+   .about__img {
+      align-self: flex-end;
+   }
+
+   .about__content {
+      flex-basis: 50%;
+   }
+}
+
 @media (max-width: 992px) {
 
    .menu__btn {
@@ -546,6 +573,15 @@ body {
    .text {
       padding: 75px 0;
       font-size: 40px;
+   }
+
+   .about__inner {
+      flex-wrap: wrap;
+   }
+
+   .about__content {
+      flex-basis: 100%;
+      max-width: 100%;
    }
 }
 
