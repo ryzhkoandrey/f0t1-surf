@@ -589,7 +589,8 @@ body {
    }
 
    .about,
-   .site-images {
+   .site-images,
+   .activities {
       margin-bottom: 75px;
    }
 
