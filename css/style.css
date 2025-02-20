@@ -648,16 +648,27 @@ body {
    .footer__bottom {
       flex-wrap: wrap;
    }
+
+   .footer__info-list {
+      gap: 15px;
+   }
 }
 
 @media (max-width: 570px) {
 
    .footer__top {
-      flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
+      gap: 30px;
+      justify-content: center;
    }
 
    .footer__title {
-      order: 1;
+      text-align: center;
+   }
+
+   .footer__info-list {
+      flex-wrap: wrap;
+      gap: 30px;
    }
 }
 
